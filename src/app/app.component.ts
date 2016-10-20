@@ -9,7 +9,7 @@ import { Http } from '@angular/http';
 export class AppComponent {
   constructor(private http: Http) {
     this.http.post(
-      'http://swbdm.portalfarma.com/WebServiceBDM.asmx',
+      'https://swbdm.portalfarma.com/WebServiceBDM.asmx',
       {
         IdVerifUser1: 'cHJ1ZWJhaG9zcGl0YWxzYWx1ZA',
         user: '4usFs3lLXbT1i',
