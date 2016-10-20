@@ -4,7 +4,8 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "preinstall": "npm install -g angular-cli",
+    "preinstall":
+      "npm install -g angular-cli && npm install",
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
